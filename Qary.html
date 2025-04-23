@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Qary</title>
+    <style>
+        #contnr{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .love{
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .love img{
+            width: 100%;
+        }
+        /* Smaller device */
+        @media screen and (max-width:576px) {
+            #contnr{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .love{
+                background-color: aquamarine;
+            }
+        }
+        /* Medium device */
+        @media screen and (min-width:576px) and (max-width:992px) {
+            #contnr{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- #contnr>.love*12>img[src="medam/Eyes.jpeg"]+h3{Love Eyes -$}+p{price: \$$00}+p>lorem20^btn{Buy Now} -->
+    <div id="contnr">
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione hic, quod dicta doloribus tempore voluptas eligendi et quas laudantium.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -2</h3>
+            <p>price: $200</p>
+            <p>Assumenda quaerat architecto ex eius. Suscipit eveniet nam nemo voluptate mollitia doloribus, molestias labore, aperiam aspernatur voluptas eaque asperiores inventore.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -3</h3>
+            <p>price: $300</p>
+            <p>Nostrum minus commodi dolorem consequuntur labore, deserunt, laborum ullam odio, nobis officia placeat magnam veniam quos quidem? Ipsum, corrupti dicta.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -4</h3>
+            <p>price: $400</p>
+            <p>Error porro incidunt quaerat provident nulla, officiis doloribus, officia ratione corrupti optio nemo totam culpa ducimus, sequi earum obcaecati tenetur.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -5</h3>
+            <p>price: $500</p>
+            <p>Reiciendis, illo quos? Distinctio eius corrupti debitis, vel delectus natus illo quibusdam repellendus earum, reprehenderit magnam numquam culpa maxime suscipit!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -6</h3>
+            <p>price: $600</p>
+            <p>Eum unde sed fugit amet earum dicta suscipit assumenda placeat, incidunt provident itaque eos totam commodi asperiores. Harum, praesentium amet!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -7</h3>
+            <p>price: $700</p>
+            <p>Cupiditate porro, quia ad doloribus perferendis non cum unde quisquam atque, illum facilis omnis laudantium, optio fugiat pariatur repellat soluta!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -8</h3>
+            <p>price: $800</p>
+            <p>Quam laudantium beatae necessitatibus doloremque ea non voluptatum hic aspernatur odit aut nesciunt, tenetur saepe. Voluptatem quos voluptatum possimus esse?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -9</h3>
+            <p>price: $900</p>
+            <p>Error, accusamus facilis? Quam, corrupti. Accusamus earum ipsum aperiam, possimus dignissimos distinctio magni nisi? Sunt, ipsam. Nihil ratione reprehenderit officiis.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -10</h3>
+            <p>price: $1000</p>
+            <p>Fugiat sint repellat, iusto veniam dolorum rem esse quae accusantium atque delectus aliquam nemo, ut tempora nam aperiam voluptates est.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -11</h3>
+            <p>price: $1100</p>
+            <p>Totam fugiat laudantium repellat, illum explicabo, aut nostrum quibusdam ut aspernatur dolor inventore in ipsa quam soluta doloribus ipsam hic.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="love">
+            <img src="medam/Eyes.jpeg" alt="">
+            <h3>Love Item -12</h3>
+            <p>price: $1200</p>
+            <p>Fuga rem obcaecati perferendis, odit nihil tempora reprehenderit commodi, eius quo corporis nemo necessitatibus suscipit expedita. Illum corporis cupiditate nihil.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
