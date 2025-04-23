@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Responsive</title>
+    <style>
+        #contnr{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .Love{
+            border: 1px solid red;
+        }
+        .Love img{
+            width: 100%;
+        }
+        @media screen and (max-width: 576px) {
+            #contnr{
+                grid-template-columns: repeat(1, 1fr); 
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- #contnr>.Love*12>img[src="medam/Eyes.jpeg"]+h3{Love Item -$}+p{price: \$$}+p>lorem20 -->
